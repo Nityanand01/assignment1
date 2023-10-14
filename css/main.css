@@ -11,8 +11,6 @@ body {
 header {
     border: 3px solid black;
     border-radius: 15px;
-    padding: 10px;
-    margin: 10px;
 }
 
 
@@ -30,14 +28,16 @@ footer p {
 
 main {
     float:left;
-    width: 75vw;
-    height: 140vh;
+    width: 900px;
+    height: 150vh;
 }
 
 aside {
     float: right;
-    width: 25vw;
+    width: 250px;
     height: 140vh;
+    margin: 15px;
+    padding-left: 200px;
 }
 
 
