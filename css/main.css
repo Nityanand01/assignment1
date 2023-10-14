@@ -1,0 +1,84 @@
+/* NAME: NITYANAND PANDEY STUDENT ID: 8911829*/
+/* Part 1 */
+body {
+    font: normal normal normal 12px/1.5 Verdana, Arial, Helvetica, sans-serif;
+    height:100vh;
+    width: 100%;
+    max-width: 1400px;
+}
+
+/* Part 2*/
+header {
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+h1, h2 {
+    color: #b24b07;
+    font-variant: small-caps;
+}
+
+footer p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Part 3*/
+
+main {
+    float:left;
+    width: 75vw;
+    height: 140vh;
+}
+
+aside {
+    float: right;
+    width: 25vw;
+    height: 140vh;
+}
+
+
+footer{border: 3px solid black;
+    border-radius: 15px;
+    clear:both;
+}
+
+.structural{
+    margin:15px;
+    padding: 10px;
+  }
+
+
+/* Part 4 */
+.mainimg {
+    border: 2px solid #333;
+}
+
+figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+q {
+    font-family: cursive;
+    font-style: italic;
+    font-size: 18px;
+}
+
+/* Part 5*/
+ul li {
+    list-style-type: none;
+    line-height: 1.5;
+}
+
+ul > li > a {
+    text-decoration: none;
+    color: #0099cc;
+}
+
+ul > li > a:hover {
+    color: #ff6600;
+}
