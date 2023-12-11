@@ -1,0 +1,33 @@
+main
+{ 
+  padding: 0rem;
+  background-color: hsl(130, 39%, 58%);
+    
+}
+
+img
+{
+    width:75%;
+    height:75%;
+}
+
+#gallery
+{
+    display: grid;
+    grid-gap: 10px;
+    max-width: 1200px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+@media(max-width: 600px)
+{
+  #gallery{
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+
+  
